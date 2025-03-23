@@ -1,13 +1,15 @@
-import React from 'react'
+import React from 'react';
 
-const Car = ({info}) => {
-    const{colour,brand}=info
-    const text= `hi i am ${brand} and ${colour} car`
+const Car = ({ info }) => {
+  const { colour, brand } = info;
+  const text = `Hi, I am a ${brand} and ${colour} car.`;
+
   return (
-  <><p> i am a {colour} car from {brand} </p>
-   <p>{text}</p>
-   </> 
-  )
-}
+    <>
+      <p>I am a {colour} car from {brand}.</p>
+      <p>{text}</p>
+    </>
+  );
+};
 
-export default Car
+export default Car;
